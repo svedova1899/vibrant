@@ -26,16 +26,30 @@ header {
   }
 }
 .section-text-list{
+  padding-top: 131px;
+  text-align: center;
+  gap: 20px;
     &__item{
         color: $header-link-color;
         font-family: $roboto-fonts;
-        width: 469px;
     }
     &__title{
-        width: 469px;
         font-size: 46px;
+        margin: 0;
     }
     &__paragraph{
         font-size: 22px;
     }
+    &__button{
+      color:  $header-link-color;
+      font-size: 18px;
+      background-color: $button-color;
+      border-radius: 12px;
+      padding: 9px 15px;
+      border: none;
+    }
+}
+.pic-section-img{
+  padding-top: 70px;
+  margin-left: 27px;
 }

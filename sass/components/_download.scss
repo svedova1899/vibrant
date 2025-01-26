@@ -1,0 +1,32 @@
+.downloud-section{
+    margin-top: 215px;
+    background-image: url(./pic/png/header-background.png);
+    height: 449px;
+    border-radius: 25px;
+}
+.downloud-img{
+    position: absolute;
+    left: 862px;
+    margin-top: 95px;
+}
+.downloud-list{
+    &__title{
+        color: $header-link-color;
+        font-family: $roboto-fonts;
+        font-size: 46px;
+        padding-top: 122px;
+    }
+    &__button{
+        color:  $header-link-color;
+        font-size: 18px;
+        background-color: $button-color;
+        border-radius: 12px;
+        padding: 9px 15px;
+        border: none;
+    }
+    &__paragraph{
+        color: $header-link-color;
+        font-family: $roboto-fonts;
+        font-size: 12px;
+    }
+}

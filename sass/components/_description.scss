@@ -1,0 +1,68 @@
+.summary-img{
+    position: absolute;
+    left: 915px;
+    padding-top: 100px;
+}
+.summary-list{
+   padding-top: 210px;
+   gap: 20px;
+    &__title{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        width: 369px;
+        font-size: 32px;
+    }
+    &__paragraph{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 18px;
+        width: 484px;
+    }
+}
+.expenses-img{
+    position: absolute;
+    padding-top: 113px;
+}
+.expenses-list{
+    padding-top: 123px;
+    padding-left: 540px;
+    &__item{
+        display: flex;
+    }
+    &__title{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        width: 335px;
+        font-size: 32px;
+    }
+    &__paragraph{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 18px;
+        width: 427px;
+    }
+    &__paragraph-second{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 17px;
+    }
+}
+.bills-img{
+    position: absolute;
+    left: 925px;
+    padding-top: 92px;
+}
+.bills-list{
+    padding-top: 166px;
+    &__title{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 32px; 
+    }
+    &__paragraph{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 18px;
+        width: 427px;
+    }
+}
