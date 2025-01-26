@@ -18,4 +18,46 @@ a {
 
 .flex {
   display: flex;
+}
+
+header {
+  background: url(./pic/png/header-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1001px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.header-list__img {
+  margin-right: 584px;
+}
+.header-list__link {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+.header-list__button {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  border: none;
+  padding: 6px 6px;
+  font-family: "Roboto", sans-serif;
+  color: #2C313A;
+  font-size: 16px;
+}
+
+.section-text-list__item {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  width: 469px;
+}
+.section-text-list__title {
+  width: 469px;
+  font-size: 46px;
+}
+.section-text-list__paragraph {
+  font-size: 22px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+header {
+  background: url(./pic/png/header-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1001px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  &__img {
+    margin-right: 584px;
+  }
+  &__link {
+    color: $header-link-color;
+    font-family: $roboto-fonts;
+  }
+  &__button{
+    background-color: $header-link-color;
+    border-radius: 12px;
+    border: none;
+    padding: 6px 6px;
+    font-family: $roboto-fonts;
+    color: $button-text;
+    font-size: 16px;
+  }
+}
+.section-text-list{
+    &__item{
+        color: $header-link-color;
+        font-family: $roboto-fonts;
+        width: 469px;
+    }
+    &__title{
+        width: 469px;
+        font-size: 46px;
+    }
+    &__paragraph{
+        font-size: 22px;
+    }
+}
