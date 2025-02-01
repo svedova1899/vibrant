@@ -1,0 +1,43 @@
+.people-title{
+    font-family: $roboto-fonts;
+    color: $main-text-color;
+    font-size: 43px;
+    text-align: center;
+    margin: 0;
+}
+.people-section{
+    padding-top: 120px;
+}
+.first-group-of-people{
+    &__div{
+        margin-bottom: 17px;
+    }
+    &__title{
+        margin-left: 50px;
+        font-family: $roboto-fonts;
+        font-size: 16px;
+        padding-top: 5px;
+        margin-bottom: -10px;
+    }
+    &__div-paragraph{
+        margin-left: 50px;
+        font-family: $roboto-fonts;
+        font-size: 13px;
+    }
+    &__img{
+        position: absolute;
+    }
+    &__pragraph{
+        font-family: $roboto-fonts;
+        font-size: 18px;
+        width: 277px;
+        margin-bottom: 80px;
+    }
+    &__second-pragraph{
+        font-family: $roboto-fonts;
+        color: $main-text-color;
+        font-size: 17px;
+        width: 277px;
+        margin-top: -30px;
+    }
+}
